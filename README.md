@@ -1,4 +1,3 @@
-<!-- ;trollface; Ymlvd2VhcG9uCg==, bioweapon-->
 <!-- ······················
  · with love from bolzov (●'◡'●)
  · https://github.com/ibolzov
@@ -27,7 +26,9 @@ ports 8020 auth, 5816 game, 9528 login. env: `CQ2_BIND_HOST`, `CQ2_DATA`, `CQ2_T
 
 ## apk
 
-drag the apk onto `scripts\set_ip.bat`. building it from a new client: [docs/APK.md](docs/APK.md).
+download: [Gaucho.zip](https://www.mediafire.com/file/fwm2ll1cnzwm3y7/Gaucho.zip/file). it points at `127.0.0.1`
+(same as server); for anything else drag the apk onto `scripts\set_ip.bat`. building it from a
+new client: [docs/APK.md](docs/APK.md).
 
 ## works
 
