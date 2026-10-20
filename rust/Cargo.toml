@@ -1,0 +1,26 @@
+#ooooooooooooooooo
+# | with love from bolzov (づ◕‿◕)づ
+# | https://github.com/ibolzov
+# | gaucho - conquer mobile private server
+#ooooooooooooooooo
+
+[package]
+name = "gaucho-server"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "gaucho-server"
+path = "src/main.rs"
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "sync", "time", "io-util"] }
+num-bigint = "0.4"
+md-5 = "0.10"
+rand = "0.8"
+serde_json = "1"
+serde = { version = "1", features = ["derive"] }
+
+[profile.release]
+opt-level = 3
+lto = "thin"

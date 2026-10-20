@@ -1,0 +1,12 @@
+#+++++++++++++++++++
+# + gaucho - conquer mobile private server
+# + with love from bolzov ʕ•ᴥ•ʔ
+# + https://github.com/ibolzov
+#+++++++++++++++++++
+
+**/__pycache__/
+rust/target/
+data/heroes*.json
+data/accounts.json
+data/guilds.json
+tools/apktool.jar

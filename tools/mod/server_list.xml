@@ -1,0 +1,85 @@
+<?xml version="1.0"?>
+<mysqldump xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<database name="cj0serverdat">
+	<table_structure name="ipadserver">
+		<field Field="id" Type="int(10) unsigned" Null="NO" Key="PRI" Extra="" />
+		<field Field="ServerName" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="ServerIP" Type="varchar(128)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="ServerPort" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="FlashName" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="FlashIcon" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="FlashHint" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="Child" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="ServerID" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="PicServerIP" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="PicServerPort" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="BindServerIP" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="BindServerPort" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="Charges" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="MiniDelayx" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="BGPServerIP" Type="varchar(50)" Null="NO" Key="" Default="0" Extra="" />
+		<field Field="BGPServerPort" Type="int(10) unsigned" Null="NO" Key="" Default="0" Extra="" />
+		<key Table="ipadserver" Non_unique="0" Key_name="PRIMARY" Seq_in_index="1" Column_name="id" Collation="A" Cardinality="3" Null="" Index_type="BTREE" Comment="" Index_comment="" />
+		<options Name="ipadserver" Engine="MyISAM" Version="10" Row_format="Dynamic" Rows="3" Avg_row_length="45" Data_length="136" Max_data_length="281474976710655" Index_length="2048" Data_free="0" Create_time="2025-06-09 02:50:45" Update_time="2025-09-19 03:08:12" Collation="utf8mb4_bin" Create_options="" Comment="" />
+	</table_structure>
+	<table_data name="ipadserver">
+	<row>
+		<field name="id">0</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName"></field>
+		<field name="FlashIcon"></field>
+		<field name="FlashHint"></field>
+		<field name="Child">1</field>
+		<field name="ServerID">0</field>
+		<field name="PicServerIP">0</field>
+		<field name="PicServerPort">0</field>
+		<field name="BindServerIP">0</field>
+		<field name="BindServerPort">0</field>
+		<field name="Charges">0</field>
+		<field name="MiniDelayx">0</field>
+		<field name="BGPServerIP">0</field>
+		<field name="BGPServerPort">0</field>
+	</row>
+	<row>
+		<field name="id">1</field>
+		<field name="ServerName"></field>
+		<field name="ServerIP"></field>
+		<field name="ServerPort">0</field>
+		<field name="FlashName">GAUCHO</field>
+		<field name="FlashIcon">US_SERVER</field>
+		<field name="FlashHint"></field>
+		<field name="Child">1</field>
+		<field name="ServerID">0</field>
+		<field name="PicServerIP">0</field>
+		<field name="PicServerPort">0</field>
+		<field name="BindServerIP">0</field>
+		<field name="BindServerPort">0</field>
+		<field name="Charges">0</field>
+		<field name="MiniDelayx">0</field>
+		<field name="BGPServerIP">0</field>
+		<field name="BGPServerPort">0</field>
+	</row>
+	<row>
+		<field name="id">101</field>
+		<field name="ServerName">Gaucho</field>
+		<field name="ServerIP">{ip}</field>
+		<field name="ServerPort">8020</field>
+		<field name="FlashName">Gaucho</field>
+		<field name="FlashIcon">US_SERVER</field>
+		<field name="FlashHint"></field>
+		<field name="Child">0</field>
+		<field name="ServerID">1</field>
+		<field name="PicServerIP">{ip}</field>
+		<field name="PicServerPort">8020</field>
+		<field name="BindServerIP">{ip}</field>
+		<field name="BindServerPort">8020</field>
+		<field name="Charges">0</field>
+		<field name="MiniDelayx">0</field>
+		<field name="BGPServerIP">{ip}</field>
+		<field name="BGPServerPort">8020</field>
+	</row>
+	</table_data>
+</database>
+</mysqldump>
